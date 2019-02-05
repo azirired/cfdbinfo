@@ -22,8 +22,8 @@
 	
 	<form action="index.cfm" >
 		<input type="hidden" name="ops" value="tables">
-		<label>DSN</label>
-		<input type="text" size="50" name="dsn" ><br>
+		<label>Datasource : </label>
+		<input type="text" size="50" name="dsn" >
 		<input type="submit" name="submit" value="GO">
 
 	</form>
