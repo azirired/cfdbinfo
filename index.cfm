@@ -75,7 +75,7 @@
 				    <cfloop query="dbdata">
 					    <tr>
 					    	<td>
-				             	<a href="index.cfm?ops=columns&dsn=#dsn#&table=#dbdata.table_name#&txt=#dbdata.column_name#">#dbdata.column_name#</a>
+				             	#dbdata.column_name#
 				             	<!--- set table header--->
 				             	<cfset dbHeader="#dbHeader#<th>#dbdata.column_name#</th>">
 				             	<!--- data--->
