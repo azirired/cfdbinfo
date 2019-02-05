@@ -81,15 +81,9 @@
 				             	<!--- data--->
 				             	<cfset txt="#txt#<td>###dbdata.column_name###</td>">
 				             </td>
-				             <td> 
-				             	#dbdata.type_name#
-				             </td> 
-				             <td>
-				             	#dbdata.column_size#
-				             </td>
-				             <td> 
-				             	#dbdata.is_nullable#
-				             </td>
+				             <td>#dbdata.type_name#</td> 
+				             <td>#dbdata.column_size#</td>
+				             <td>#dbdata.is_nullable#</td>
 				             
 				    </cfloop>	
 				    	<!---close row--->
@@ -135,10 +129,6 @@
 							    </cfif>
 							</select>
 							&nbsp;rows
-
-					        	
-				        	&nbsp;&nbsp;&nbsp;
-				        	<input type="submit" name="submit" value="GO">
 				        	
 				    	</form>
 				    </cfif>
